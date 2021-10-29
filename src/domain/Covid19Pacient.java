@@ -18,9 +18,10 @@ public class Covid19Pacient extends Observable{
 	private Map<Symptom, Integer> symptoms = new HashMap<Symptom, Integer>();
 	private SymptomFactory sf;
 
-	public Covid19Pacient(String name, int years) {
+	public Covid19Pacient(String name, int years, SymptomFactory sf) {
 		this.name = name;
 		this.age = years;
+		this.sf=sf;
 	}
 
 	public String getName() {

@@ -17,6 +17,7 @@ public class PacientObserverGUI extends JFrame implements Observer {
 
 	private JPanel contentPane;
 	private final JLabel symptomLabel = new JLabel("");
+	
 
 	/**
 	 * Create the frame.
@@ -46,7 +47,9 @@ public class PacientObserverGUI extends JFrame implements Observer {
 		s = s + "Symptoms:	<br>";
 		while (i.hasNext()) {
 			p2 = i.next();
+			
 			s = s + p2.toString() + ",	" + p.getWeight(p2) + "<br>";
+
 		}
 		s = s + "</html>";
 		symptomLabel.setText(s);
