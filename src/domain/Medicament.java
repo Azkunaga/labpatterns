@@ -22,9 +22,10 @@ public class Medicament {
 		this.name = name;
 	}
 
-	public Medicament(String name) {
+	public Medicament(String name,SymptomFactory sf) {
 		super();
 		this.name = name;
+		this.sf=sf;
 	}
 
 	public Symptom addSymptomByName(String symptom) {
