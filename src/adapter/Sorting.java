@@ -16,7 +16,6 @@ public class Sorting {
 	    	  Symptom s= (Symptom)it.previous();
 	          list.add(s);
 	      }
-
 	      Collections.sort(list, comparator);
 	      return list.iterator();
 	  }

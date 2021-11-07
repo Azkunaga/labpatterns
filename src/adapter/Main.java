@@ -32,6 +32,7 @@ public class Main {
 			System.out.println("Larritasun indizea: " + symptom.getSeverityIndex());
 			System.out.println();
 		}
+		System.out.println("------------------------------------");
 		System.out.println();
 		System.out.println("Sintomaren izenarenekin ordenatuta");
 		System.out.println();

@@ -11,6 +11,5 @@ public class Main {
 		
 		Medicament m=new Medicament("Ibuprofeno", new SymptomFactory());
 		MedicalGUI mgui=new MedicalGUI(m);
-
 	}
 }
