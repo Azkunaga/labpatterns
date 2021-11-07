@@ -10,7 +10,7 @@ public class Covid19PacientInvertedIterator implements InvertedIterator{
 	
 	public Covid19PacientInvertedIterator(List<Symptom> s) {
 		this.symptoms = s;
-		this.position = symptoms.size()+1;
+		this.position = symptoms.size()-1;
 	}
 
 	@Override
@@ -22,7 +22,7 @@ public class Covid19PacientInvertedIterator implements InvertedIterator{
 
 	@Override
 	public boolean hasPrevious() {
-		return position>0;
+		return position>=0;
 	}
 
 	@Override
