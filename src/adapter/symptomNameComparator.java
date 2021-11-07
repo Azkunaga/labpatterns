@@ -12,6 +12,4 @@ public class symptomNameComparator implements Comparator{
 		Symptom b=(Symptom) o2;
 		return a.getName().compareTo(b.getName());
 	}
-
-
 }

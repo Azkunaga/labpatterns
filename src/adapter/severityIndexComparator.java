@@ -12,6 +12,4 @@ public class severityIndexComparator implements Comparator{
 		Symptom b=(Symptom) o2;
 		return a.getSeverityIndex()-b.getSeverityIndex();
 	}
-
-
 }

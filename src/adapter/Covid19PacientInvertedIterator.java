@@ -6,10 +6,11 @@ import domain.Symptom;
 
 public class Covid19PacientInvertedIterator implements InvertedIterator{
 	List<Symptom> symptoms;
-	int position=symptoms.size()-1;
+	int position;
 	
 	public Covid19PacientInvertedIterator(List<Symptom> s) {
 		this.symptoms = s;
+		this.position = symptoms.size()+1;
 	}
 
 	@Override
@@ -29,5 +30,4 @@ public class Covid19PacientInvertedIterator implements InvertedIterator{
 		position=symptoms.size()-1;
 		
 	}
-
 }
