@@ -10,6 +10,6 @@ public class symptomNameComparator implements Comparator{
 	public int compare(Object o1, Object o2) {
 		Symptom a= (Symptom) o1;
 		Symptom b=(Symptom) o2;
-		return a.getName().compareTo(b.getName());
+		return b.getName().compareTo(a.getName());
 	}
 }

@@ -30,7 +30,7 @@ public class Main {
 			Symptom symptom = it1.next();
 			System.out.println("Sintoma: " +symptom.getName());
 			System.out.println("Larritasun indizea: " + symptom.getSeverityIndex());
-			
+			System.out.println();
 		}
 		System.out.println();
 		System.out.println("Sintomaren izenarenekin ordenatuta");
@@ -39,7 +39,7 @@ public class Main {
 			Symptom symptom = it2.next();
 			System.out.println("Sintoma: " +symptom.getName());
 			System.out.println("Larritasun indizea: " + symptom.getSeverityIndex());
-			
+			System.out.println();
 		}
 		
 
